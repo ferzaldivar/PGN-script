@@ -3,8 +3,6 @@
 echo "Indique el nombre del archivo: "
 read ARCHIVO
 
-#ARCHIVO=/home/fernando/Documentos/Caracteres/reemplazo.txt 
-
 sed -i "s/[\]n/\n/g" $ARCHIVO
 
 sed -i "s/[\]u00e1/á/g" $ARCHIVO
